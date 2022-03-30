@@ -1,0 +1,172 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1f2937 ;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bolder;    
+}
+.links {
+    display: flex;
+    gap: 16px;
+    font-weight: bold;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.logo {
+
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+.body1 {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+}
+
+.izq {
+    padding: 50px;
+}
+.image {
+    width: 50%;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.soc {
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 48px;
+    font-weight:910;
+}
+
+.body2 {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.title2 {
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.minibox {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 20% 10%;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15%;
+    border-color:#3882f6;
+    
+    
+}
+
+.box1, .box2, .box3, .box4 {
+   width: 205px;
+}
+.txtbox {
+    padding: 8px;
+}
+
+.body3 {
+    background-color: grey;
+    
+
+}
+.motivacional {
+    font-size: 36px;
+    font-style: italic;
+    width: 50%;
+    padding-top: 90px;
+    text-align: center;
+    margin: auto
+}
+.autor {
+    width: 50%;
+    margin: auto;
+    text-align: end;
+    font-size: 36px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.body4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.action-banner {
+    width: 70%;
+    height: 20%;
+    background-color: #3882f6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.der2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 16px;
+}
+button {
+    padding: 15px;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f9faf8;
+    background-color: #3882f6;
+    color:#f9faf8;
+
+}
+
+.call-to {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.signup {
+    margin-top: 8px;
+}
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    font-size: small;
+    
+}
+.copyright {
+    padding: 8px;
+    margin-bottom: 0px;
+}
